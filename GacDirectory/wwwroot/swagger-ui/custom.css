@@ -1,0 +1,29 @@
+﻿.topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+    visibility: hidden;
+}
+
+.topbar-wrapper .link:after {
+    content: 'GAC Egy Directory API';
+    color: #fff;
+    /*background-color:dodgerblue;*/
+    visibility: visible;
+    display: block;
+    position: absolute;
+    padding: 15px;
+}
+
+.swagger-ui .topbar {
+    background-color: darkslateblue;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    border-color: #EF1C25;    
+}
+
+.swagger-ui .info .title small:last-child {
+    background-color: #EF1C25 !important;
+}
+
+.swagger-ui .info {
+    margin: 20px 0;
+}
